@@ -8,8 +8,106 @@
 <body>
     <h1>Math By Procoder</h1>
 
+    <h3 id="text"></h3>
+
     <script>
-        let num
+ 
+        let num3 = 30.25;
+        let num4 = 30.60;
+        let num5 = 40.00001;
+        let num6 = 45.9999;
+        let num7 = 50.9999;
+        let num8 = 50.0002;
+        let num9 = 64;
+        var num10 = [6,7,8,9,10];
+
+
+    //abs means always shown positive value
+        let num1 = 20;
+        let num2 = -20;
+        document.write(Math.abs(num1));
+        document.write("<br>");
+
+        document.write(Math.abs(num2));
+        document.write("<br>");
+
+    // Use to the power. first number is base second is power.
+        document.write(Math.pow(4,2));
+        document.write("<br>");
+
+    //round means round to the nearest number
+        document.write(Math.round(num3));
+        document.write("<br>");
+
+        document.write(Math.round(num4));
+        document.write("<br>");
+
+    //floor means round down to the nearest number
+        document.write(Math.floor(num5));
+        document.write("<br>");
+        document.write(Math.floor(num6));
+        document.write("<br>");
+
+
+    //ceil means round up to the nearest number   
+        document.write(Math.ceil(num7));
+        document.write("<br>");
+        document.write(Math.ceil(num8));
+        document.write("<br>");
+
+    //sqrt means square root
+        document.write(Math.sqrt(num9));
+        document.write("<br>");
+
+    //Min and Max Value
+        document.write(Math.min(4,10,45,12,9));
+        document.write("<br>");
+
+        document.write(Math.max(4,10,45,12,9));
+        document.write("<br>");
+
+    //Use Of Pi
+        document.write(Math.PI);
+        document.write("<br>");
+
+    //Value of sin cos
+        document.write(Math.sin(90));
+        document.write("<br>");
+        document.write(Math.cos(90));
+        document.write("<br>");
+        document.write(Math.cos(60));
+        document.write("<br>");
+        document.write(Math.sin(0));
+        document.write("<br>");
+
+
+    //Random Number
+        document.write(Math.random());
+        document.write("<br>");
+
+         document.write(Math.random().toFixed(2));
+         document.write("<br>");
+
+
+         document.write(Math.random().toFixed(2)*10);
+         document.write("<br>");
+
+         document.write(Math.random().toFixed(2)*100);
+         document.write("<br>");
+
+         document.write(Math.floor(Math.random().toFixed(2)*100));
+         document.write("<br>");
+
+    //Random Number Between 1 to 6 like ludu dice
+        let upperNember= 6;
+        let lowerNumber = 1;
+        let ludu = Math.ceil(Math.random() * upperNember);
+        document.write(ludu);
+   
+
+ 
+
+      
     </script>
 </body>
 </html>
