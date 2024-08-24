@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <h1>=========Array========</h1>
+
+    <script>
+
+        // -----------Array---------
+
+        var friends = ['Rasel', 'Alom', 'Ibrahim', 'Hasan', 'Kobir'];
+        document.write(friends + "<br>");
+        document.write(friends[0] + "<br>");
+        document.write(friends[1] + "<br>");
+        document.write(friends[2] + "<br>");
+
+
+        
+        // -----------for In loop in Array ---------
+
+            var country = ['Bangladesh', 'India', 'Pakistan', 'Nepal', 'Bhutan','Srilanka','Maldives'];
+
+            for (var item in country) {
+                document.write(country[item] + "<br>");
+        }
+
+
+
+        // -----------for loop in Array ---------
+
+        var friends = ['Rasel', 'Alom', 'Ibrahim', 'Hasan', 'Kobir','Joni','Rony'];
+
+        for (var i = 0; i < friends.length; i++) {
+            document.write(friends[i] + "<br>");
+        }
+
+
+          // -----------concat  Array ---------
+
+          var arr1 = [1,2,3,4,5];
+          var arr2 = [6,7,8,9,10];
+
+          var arr3 = arr1.concat(arr2);
+          document.write(arr3 + "<br>");
+
+
+            // ----------- Array From---------
+
+            var Female= "Shabiha Akter Meem";
+            var Femalearr = Array.from(Female);
+
+            document.write(Femalearr[5]);
+
+
+    </script>
+</body>
+</html>

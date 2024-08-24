@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    
+    <h1>=====Function=====</h1>
+
+    <script>
+
+        function sayHello() {
+           document.write("Hello World <br/>" );
+        }
+        sayHello();
+        sayHello();
+        sayHello();
+
+    // ------------------------------------
+
+        function toAdd() {
+            num1=10;
+            num2=20;
+            document.write(num1+num2 +"<br/>" );
+        }
+        toAdd();
+
+    // ------------------------------------
+
+        function sumNumber(num1,num2) {
+            var sum=num1+num2;
+
+            document.write(sum +"<br/>" );
+            }
+
+            sumNumber(35,20);
+            sumNumber(100,200);
+            sumNumber(1000,2000);
+
+    // ------------------------------------
+
+        function addNumber(n1,n2) {
+            return n1+n2;
+        }
+
+        document.write(addNumber(100,2000) +"<br/>" );
+
+    // ------------------------------------
+
+        var square = function (number) {
+            return number * number;
+    };
+
+        document.write(square(5) +"<br/>"); 
+
+    // ------------------------------------
+
+    function myName() {
+            return "Arif";
+        }
+        var name = myName() + " Mahmud";
+
+        document.write(name + "<br/>" );
+    
+    // ------------------------------------
+        
+     
+    </script>
+</body>
+</html>
