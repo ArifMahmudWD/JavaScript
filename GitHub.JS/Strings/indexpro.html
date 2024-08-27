@@ -6,7 +6,7 @@
     <title>Strings</title>
 </head>
 <body>
-    <h2>======Stings=======</h2>
+    <h2>======Strings=======</h2>
 
 
     <script>
@@ -15,32 +15,8 @@
         // Strings are primitive data types
         // Strings are sequence of characters
         // Strings are immutable in javascript
-       
 
-        const name = "Arif Mahmud";
-            document.write(name + "<br>");
-            document.write(typeof name + "<br>");
-            document.write(name[0] + "<br>");
-            document.write(name[1] + "<br>");
-            document.write(name[2] + "<br>");
-            document.write(name.length + "<br>");
-            document.write(name.toUpperCase() + "<br>");
-            document.write(name.toLowerCase() + "<br>");
-            document.write(name.indexOf("M") + "<br>");
-            document.write(name.substring(0, 3) + "<br>");
-            document.write(name.slice(0, 4) + "<br>");
-            document.write(name.replace("Arif Mahmud", "Habibur Islam") + "<br>");
-            document.write(name.split(" ") + "<br>");
-            document.write(name.trim() + "<br>");
-            document.write(name.trimEnd() + "<br>");
-            document.write(name.trimStart() + "<br>");
-            document.write(name.charAt(0) + "<br>");
-            document.write(name.charCodeAt(0) + "<br>");
-            document.write(name.concat(" ", "Hasen") + "<br>");
-            document.write(name.startsWith("Arif") + "<br>");
-            document.write(name.endsWith("Mahmud") + "<br>");
 
-            
         // typeof
         // String methods
         // length
@@ -56,6 +32,47 @@
         // trimStart()
         // charAt()
         // charCodeAt()
+       
+
+        // const name = "Arif Mahmud";
+        //     document.write(name + "<br>");
+        //     document.write(typeof name + "<br>");
+        //     document.write(name[0] + "<br>");
+        //     document.write(name[1] + "<br>");
+        //     document.write(name[2] + "<br>");
+        //     document.write(name.length + "<br>");
+        //     document.write(name.toUpperCase() + "<br>");
+        //     document.write(name.toLowerCase() + "<br>");
+        //     document.write(name.indexOf("M") + "<br>");
+        //     document.write(name.substring(0, 3) + "<br>");
+        //     document.write(name.slice(0, 4) + "<br>");
+        //     document.write(name.replace("Arif Mahmud", "Habibur Islam") + "<br>");
+        //     document.write(name.split(" ") + "<br>");
+        //     document.write(name.trim() + "<br>");
+        //     document.write(name.trimEnd() + "<br>");
+        //     document.write(name.trimStart() + "<br>");
+        //     document.write(name.charAt(0) + "<br>");
+        //     document.write(name.charCodeAt(0) + "<br>");
+        //     document.write(name.concat(" ", "Hasen") + "<br>");
+        //     document.write(name.startsWith("Arif") + "<br>");
+        //     document.write(name.endsWith("Mahmud") + "<br>");
+
+
+            let firstName = "Arif";
+            let lastName = "Mahmud";
+            let country = "Bangladesh";
+            let info = firstName + " " + lastName + " " + country;
+            let info1 = "Arif" + " " + "Mahmud";
+            let info2 = "Arif".concat(" ", "Mahmud", " ", "Hasen");
+            let info3 = `I am ${firstName} ${lastName} I am from ${5+8}`
+            let info4 = `I am ${firstName} ${lastName} I am from ${country}`
+
+
+            document.write(info4 + "<br>");
+            document.write(info3 + "<br>");
+   
+      
+      
     </script>
 </body>
 </html>
