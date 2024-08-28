@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-1</title>
+</head>
+<body>
+
+    <h1 class="text"></h1>
+    <h4 class="text"></h4>
+
+
+    <h2 name="title">T1</h2>
+    <h4 name="title">T2</h4>
+
+
+    <p>P1</p>
+    <p>P2</p>
+
+
+    <button>Read More</button>
+    <button>Read More</button>
+
+
+
+
+    <script>
+
+        var text = document.getElementsByClassName('text');
+        text[0].innerHTML = 'Hi World';
+        text[1].innerHTML = 'Hi World';
+
+
+        var title = document.getElementsByName('title');
+        title[0].innerHTML = 'Hello World';
+        title[1].innerHTML = 'Hello World';
+
+
+        var para = document.getElementsByTagName('p');
+        para[0].innerHTML = 'Hello Paragraph';
+        para[1].innerHTML = 'Hello Paragraph';
+
+
+
+        var btn = document.getElementsByTagName('button');
+        btn[0].innerHTML = 'Learn More';
+        btn[1].innerHTML = 'Show More';
+
+
+    </script>
+</body>
+</html>
