@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="myInput">
+    <input type="text" id="myInput2">
+    <button onclick="myFunction()"> Add To Number</button>
+
+
+    <!-- css Manupulation -->
+
+    <h1 id="mystyle"> Arif Mahmud </h1>
+    <button id="addstyle"> Add Style </button>
+    <button id="removestyle"> Remove Style </button>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myInput").value;
+            var y = document.getElementById("myInput2").value;
+               result = parseInt(x) + parseInt(y);
+            alert(result);
+        }
+
+        function addStyle() {
+            document.getElementById("mystyle").style.color = "red";
+        }
+        
+        function removeStyle() {
+            document.getElementById("mystyle").style.color = "Black";
+        }
+      
+        document.getElementById("addstyle").addEventListener("click", addStyle);
+        document.getElementById("removestyle").addEventListener("click", removeStyle);
+    </script>
+</body>
+</html>
